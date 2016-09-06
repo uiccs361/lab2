@@ -10,3 +10,6 @@ strace: strace.c
 
 ltrace: ltrace.c
 	gcc -g ltrace.c -o tryltrace
+
+clean:
+	rm trygdb trystrace tryltrace
